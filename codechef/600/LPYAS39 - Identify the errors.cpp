@@ -1,4 +1,4 @@
 one = "Coding"
-two = "Chef"
-#two[3]='e'
+two = "Chaf"
+two =two[:2] + 'e' + two[3:]
 print(one + " " + two)

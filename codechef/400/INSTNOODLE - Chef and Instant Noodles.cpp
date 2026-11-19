@@ -1,3 +1,10 @@
-# cook your dish here
-x, y = map(int,input().split())
-print(x * y)
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+int a,b,c;
+scanf("%d%d",&a,&b);
+c =a*b;
+printf("%d",c);
+}
+

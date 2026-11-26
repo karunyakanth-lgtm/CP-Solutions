@@ -1,11 +1,6 @@
-#include <stdio.h>
 
-int main() {
-    int R, C, E;
-    scanf("%d %d %d", & R, & C, & E); // Input for rows, columns, and extra rows
+R, C, E = map(int, input().split())
 
-    int total_cells = (R + E) * C; // Calculate the total number of cells
-    printf("%d\n", total_cells); // Output the result
+total_cells = (R + E) * C
 
-    return 0;
-}
+print(total_cells)
